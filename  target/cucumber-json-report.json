@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-03T00:16:53.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6562000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.TestMayurkumar.BaseClass.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "update user details for his account",
+        "description": "",
+        "id": "home-page-functionality;update-user-details-for-his-account",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.TestMayurkumar.BaseClass.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on home page of the automationpractice website",
+            "match": {
+              "location": "com.TestMayurkumar.StapDefinitions.OrderTshirtSteps.user_is_on_home_page_of_the_automationpractice_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 983000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on sign in button",
+            "match": {
+              "location": "com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_click_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2066000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user add his credentials details and click on signin button",
+            "match": {
+              "location": "com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_add_his_credentials_details_and_click_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1453000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user click the my personal information options",
+            "match": {
+              "location": "com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_click_the_my_personal_information_options()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2061000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user updated his firstname and saved successfully.",
+            "match": {
+              "location": "com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_updated_his_firstname_and_saved_successfully()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should get message your personal information has been successfully updated.",
+            "match": {
+              "location": "com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_should_get_message_your_personal_information_has_been_successfully_updated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@myAccount"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Functionality",
+    "description": "",
+    "id": "home-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/Resources/HomePage.feature",
+    "tags": []
+  }
+]

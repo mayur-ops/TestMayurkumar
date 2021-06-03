@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.374">
+<testcase classname="Home Page Functionality" name="update user details for his account" time="13.244">
+<system-out><![CDATA[Given user is on home page of the automationpractice website................passed
+When user click on sign in button...........................................passed
+And user add his credentials details and click on signin button.............passed
+And user click the my personal information options..........................passed
+And user updated his firstname and saved successfully.......................passed
+Then user should get message your personal information has been successfully updated..passed
+]]></system-out>
+</testcase>
+</testsuite>

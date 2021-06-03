@@ -1,0 +1,9 @@
+
+@myAccount
+Scenario: update user details for his account                                           [90m# src/test/Resources/HomePage.feature:13[0m
+  [32mGiven [0m[32muser is on home page of the automationpractice website[0m                          [90m# com.TestMayurkumar.StapDefinitions.OrderTshirtSteps.user_is_on_home_page_of_the_automationpractice_website()[0m
+  [32mWhen [0m[32muser click on sign in button[0m                                                     [90m# com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_click_on_sign_in_button()[0m
+  [32mAnd [0m[32muser add his credentials details and click on signin button[0m                       [90m# com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_add_his_credentials_details_and_click_on_signin_button()[0m
+  [32mAnd [0m[32muser click the my personal information options[0m                                    [90m# com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_click_the_my_personal_information_options()[0m
+  [32mAnd [0m[32muser updated his firstname and saved successfully.[0m                                [90m# com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_updated_his_firstname_and_saved_successfully()[0m
+  [32mThen [0m[32muser should get message your personal information has been successfully updated.[0m [90m# com.TestMayurkumar.StapDefinitions.MyAccountSteps.user_should_get_message_your_personal_information_has_been_successfully_updated()[0m
